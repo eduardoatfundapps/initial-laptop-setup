@@ -23,6 +23,7 @@ docker-completion
 expat
 ffmpeg
 gettext
+fzf
 gh
 gmp
 gnupg

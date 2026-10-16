@@ -5,4 +5,4 @@ eval "$(/opt/homebrew/bin/brew shellenv 2>/dev/null || /usr/local/bin/brew shell
 
 xargs -n1 brew install < brew-apps.txt
 
-mv aerospace-config.toml "$(aerospace config --config-path)"
+cp aerospace-config.toml "$(aerospace config --config-path)"
